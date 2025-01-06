@@ -5,8 +5,8 @@
 // Pin definitions
 #define SoundSensorPin A1  // Pin for the sound sensor
 #define VREF  5.0          // Voltage reference for the analog input
-#define SD_CS_PIN 4        // Chip select pin for the SD card (modify if necessary)
-static const int RXPin = 3, TXPin = 5; // GPS module pins
+#define SD_CS_PIN 5        // Chip select pin for the SD card (modify if necessary)
+static const int RXPin = 4, TXPin = 3; // GPS module pins
 static const uint32_t GPSBaud = 9600;  // GPS baud rate
 
 // GPS setup
